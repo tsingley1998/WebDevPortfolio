@@ -1,0 +1,140 @@
+body {
+    background-image: url(/images/green.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    height: 20%;
+}
+
+h1 {
+    text-align: left;
+    color: black;
+    background-color: rgb(96, 158, 96);
+    margin: 0;
+    padding: 15px;
+    width: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    background-color: rgb(96, 158, 96);
+    right: 0;
+    left: 0;
+    position: relative;
+}
+
+ul li {
+    float: left;
+    list-style-type: none;
+}
+
+ul li a {
+        display: block;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-bottom: 20px;
+}
+
+ul li a:visited {
+    text-decoration: none;
+    color: rgb(21, 44, 10);
+}
+
+.image {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 2%;
+    float: right;
+    border: 3px solid darkseagreen;
+    padding: 0.5%;
+}
+
+.summary {
+    margin-top: 3%;
+}
+
+.sumcolor {
+    margin-right: 30%;
+    margin-top: 5%;
+    padding: 3%;
+    border: 3px solid darkseagreen;
+    border-radius: 3%;
+}
+
+footer p{
+    font-weight: lighter;
+    color: black;
+    height:25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.interests {
+    margin-right: 30%;
+    margin: 2% 30% 2% 2%;
+    border: 3px solid darkseagreen;
+    padding: 2%;
+}
+
+table, th, td {
+        padding: 10px;
+        border: 3px solid rgb(21, 44, 10);
+        border-collapse: collapse;
+        margin: 0 auto;
+}
+
+.interestsp {
+ border: 3px solid darkseagreen;
+ margin: 4% 2% 2% 2%;
+ padding: 2%;
+}
+
+.where {
+    border: 3px solid darkseagreen;
+    margin: 2% 53% 2% 2%;
+    padding: 2%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
+}
+
+.photos1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+    border: 3px solid darkseagreen;
+    padding: 2%;
+    margin: 2% 44% 2% 2%;
+}
+
+.photos2 {
+    grid-area: 1 / 2 / span 1 / span 1;
+    border: 3px solid darkseagreen;
+    padding: 2%;
+    margin: 2% 29% 10% 2%;
+}
+
+.photos3 {
+    grid-area: 2 / 1 / span 1 / span 1;
+    border: 3px solid darkseagreen;
+    padding: 2%;
+    margin: 2% 44% 2% 2%;
+}
+
+.photos4 {
+    grid-area: 2 / 2 / span 1 / span 1;
+    border: 3px solid darkseagreen;
+    padding: 2%;
+    margin: 2% 45% 2% 2%;
+}
